@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from '../constants/index';
 import profilePic from "../assets/sylfiaProfile.jpg"
 import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
 
 const container =(delay) => ({
   hidden: {x:-100, opacity:0},
@@ -34,20 +35,32 @@ const Hero = () => {
                 variants={container(0)}
                 initial='hidden'
                 animate='visible'
-                className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl ">
+                className="pb-9 text-5xl  tracking-tight lg:mt-10 lg:text-6xl ">
                     Sylfia Putri
                 </motion.h1>
-                <motion.span 
+                <motion.h2 
                 variants={container(0.5)}
                 initial='hidden'
                 animate='visible'
-                className="bg-gradient-to-r from-pink-400 via-slate-300 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                    Full Stack Developper</motion.span>
+                className="bg-gradient-to-r from-pink-400 via-slate-300 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                    
+               <TypeAnimation
+              sequence={[
+                "Web Developer",
+                1000,
+                "Front End Developer"
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+            </motion.h2>
                 <motion.p
                 variants={container(1)}
                 initial='hidden'
                 animate='visible'
                 className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+                
             </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>

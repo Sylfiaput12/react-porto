@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With of hands-on experience, I have honed my skills in front-end technologies like javascript, React and tailwind, as well as back-end technologies like php, MySQL, Laravel, and Codeineghter. `;
+export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With of hands-on experience, I have honed my skills in front-end technologies like javascript, React and tailwind, as well as back-end technologies like php, MySQL, Laravel, and Codeineghter. `;
 
 export const ABOUT_TEXT = `I am a fresh graduate from the Informatics Study Program at Singaperbangsa University of Karawang with a keen interest in computer science and technology. I have experience in software programming, especially in website development. I have participated in the Independent Study program at PT Ruangguru, specializing in Front-End Engineering, and hold a Web Developer certification from VSGA Kominfo. I possess strong communication skills, adapt easily to new environments, and excel in critical thinking.`;
 
