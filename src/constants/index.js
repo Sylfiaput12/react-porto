@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With of hands-on experience, I have honed my skills in front-end technologies like javascript, React and tailwind, as well as back-end technologies like php, MySQL, Laravel, and Codeineghter. `;
 
@@ -61,6 +62,13 @@ export const PROJECTS = [
     description:
       "The GaleyGram website is a implementation of website development using REST API. This website features the ability to add photos, edit posts, and delete posts.",
     technologies: ["HTML", "CSS", "Javascript", "Node.js", "RESTFUL API"],
+  },
+  {
+    title: "Notes App",
+    image: project5,
+    description:
+      "NotesApp is a simple application for creating, storing, and managing notes. Users can search, archive, or delete notes as needed. With the archive feature, inactive notes are saved without being deleted.",
+    technologies: ["HTML", "CSS", "Javascript", "React", "Vite"],
   },
 ];
 
